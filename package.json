@@ -1,0 +1,19 @@
+{
+  "name": "docker-stats-graph",
+  "version": "0.1.0",
+  "description": "Graphed Docker Statistics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pete Cornish",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "docker-stats": "^0.9.0",
+    "through2": "^4.0.2",
+    "turtle-race": "^1.0.7"
+  },
+  "bin": {
+    "docker-stats-graph": "index.js"
+  }
+}
